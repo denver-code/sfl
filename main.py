@@ -10,7 +10,7 @@ app.secret_key = 'lol'
 login_manager = flask_login.LoginManager()
 login_manager.init_app(app)
 
-users = {'denver': {'password': 'rutukute'}}
+users = {'denver': {'password': 'denver'}}
 
 class User(flask_login.UserMixin):
     pass
